@@ -1,0 +1,98 @@
+.container {
+  /*background-color: #f0f0f0;*/
+}
+
+#panels {
+  list-style: none;
+}
+
+#panels li {
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 13px;
+  float: left;
+  width: 230px;
+  height: 230px;
+  background-color: #fafafa;
+  position: relative;
+  cursor: pointer;
+  font-family: 'Architects Daughter', cursive;
+  background-color: white;
+  transition: all 1s ease;
+}
+
+#panels li:nth-child(3n) {
+  transform: rotate(3deg);
+}
+
+#panels li:nth-child(3n+1) {
+  transform: rotate(-2deg);
+}
+
+#panels li:nth-child(3n+2) {
+  transform: rotate(1deg);
+}
+
+#panels li:hover {
+  transform: rotate(0deg);
+}
+
+#panels li .shadow {
+  -webkit-box-shadow: inset 1px 1px 35px -4px rgba(0,0,0,0.32);
+  -moz-box-shadow: inset 1px 1px 35px -4px rgba(0,0,0,0.32);
+  box-shadow: inset 1px 1px 35px -4px rgba(0,0,0,0.32);
+  position: absolute;
+}
+
+#panels li img {
+  width: 218px;
+  max-height: 218px;
+  transition: all 1s ease;
+}
+
+#panels li:hover img {
+  opacity: 0.2;
+}
+
+#panels li h2 {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 1em;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  transition: opacity 1s ease;
+  opacity: 0.6;
+  text-shadow: 1px 1px #fff;
+}
+
+#panels li:hover h2 {
+  opacity: 1;
+}
+
+#panels li p {
+  margin: 0;
+  padding: 0 1.5em;
+  font-size: 1em;
+  line-height: 1.3em;
+  transition: all 1s ease;
+  opacity: 0;
+}
+
+#panels li:hover p {
+  opacity: 1;
+}
+
+#panels li span {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #ddd;
+  transition: all 1s ease;
+  opacity: 0.6;
+}
+
+#panels li:hover span {
+  opacity: 1;
+}
