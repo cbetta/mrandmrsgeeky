@@ -2,15 +2,35 @@
   /*background-color: #f0f0f0;*/
 }
 
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
+.info-text, .info-footer {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
+}
+
+.info-text {
+  padding: 10% 10% 0 10%;
+}
+
+.info-footer {
+  padding: 0 10% 10% 10%;
+}
+
 #panels {
+  text-align: center;
   list-style: none;
 }
 
 #panels li {
+  vertical-align: top;
   border: 1px solid #ddd;
   padding: 5px;
   margin: 13px;
-  float: left;
+  display: inline-block;
   width: 230px;
   height: 230px;
   background-color: #fafafa;
