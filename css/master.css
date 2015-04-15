@@ -5,6 +5,7 @@
 h1 {
   font-family: 'Architects Daughter', cursive;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .info-text, .info-footer {
@@ -13,7 +14,7 @@ h1 {
 }
 
 .info-text {
-  padding: 10% 10% 0 10%;
+  padding: 5% 10% 0 10%;
 }
 
 .info-footer {
@@ -75,6 +76,7 @@ h1 {
 }
 
 #panels li h2 {
+  text-align: left;
   font-family: 'Indie Flower', cursive;
   margin: 0;
   padding: 1em;
@@ -90,6 +92,7 @@ h1 {
 }
 
 #panels li p {
+  text-align: left;
   margin: 0;
   padding: 0 1.5em;
   font-size: 1em;
