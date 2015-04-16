@@ -46,22 +46,32 @@ h1 {
   font-family: 'Architects Daughter', cursive;
   background-color: white;
   transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
 }
 
 #panels li:nth-child(3n) {
   transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
 }
 
 #panels li:nth-child(3n+1) {
   transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
 }
 
 #panels li:nth-child(3n+2) {
   transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
 }
 
 #panels li:hover {
   transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
 }
 
 #panels li .shadow {
@@ -75,6 +85,8 @@ h1 {
   width: 218px;
   max-height: 218px;
   transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 }
 
 #panels li:hover img {
@@ -89,6 +101,8 @@ h1 {
   font-size: 1.5em;
   line-height: 1.3em;
   transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
   opacity: 0.6;
   text-shadow: 1px 1px #fff;
 }
@@ -104,6 +118,8 @@ h1 {
   font-size: 1em;
   line-height: 1.3em;
   transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   opacity: 0;
 }
 
@@ -119,6 +135,8 @@ h1 {
   background-color: #333;
   color: #ddd;
   transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   opacity: 0.6;
 }
 
