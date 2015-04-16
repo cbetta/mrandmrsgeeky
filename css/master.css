@@ -8,6 +8,16 @@ h1 {
   margin: 5% 0;
 }
 
+h1 .language-toggle {
+  width: 20px;
+}
+
+h1 a {
+  position: relative;
+  top: -2px;
+  margin: 0 1em;
+}
+
 .info-text, .info-footer, .info-payment {
   font-family: 'Indie Flower', cursive;
   font-size: 1.5em;
